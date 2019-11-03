@@ -583,7 +583,7 @@ char* _obj_field(char mode){
 			// Get field value in $v0 and address in $v1
 			i=(record[0]&0xffff)*4;
 			check_obj_space(2);
-			g_object[g_objpos++]=0x24430004|i; // addiu v1,v0,xxxx
+			g_object[g_objpos++]=0x24430000|i; // addiu v1,v0,xxxx
 			g_object[g_objpos++]=0x8C620000;   // lw v0,0(v1)
 		} else {
 			check_obj_space(2);
