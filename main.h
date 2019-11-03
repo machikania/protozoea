@@ -6,7 +6,7 @@
 */
 
 #define SYSVER1 "Protozoea"
-#define SYSVER2 "1.3"
+#define SYSVER2 "1.3.1"
 #define BASVER "KM-1208"
 
 #define INIFILE "MACHILCD.INI" // ‰Šúİ’èƒtƒ@ƒCƒ‹
